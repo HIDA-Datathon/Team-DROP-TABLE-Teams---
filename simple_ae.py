@@ -13,7 +13,7 @@ def get_data():
 
 def classifier():
 
-    latent_dimension = 32
+    latent_dimension = 16
 
     data = get_data()
     data = data.reshape(999,96,192,1)
